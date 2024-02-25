@@ -1,0 +1,23 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+caption{
+    background-color: #80B329;
+    color: white;
+    font-weight: bold;
+}
+
+table,caption,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding-right: 30px;
+}
+
+td:nth-child(even){
+    background-color: #E4FFB5;
+}
+
+td:nth-child(odd){
+    background-color: #EEFFD0;
+}
